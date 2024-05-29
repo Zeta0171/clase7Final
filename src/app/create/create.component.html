@@ -1,0 +1,19 @@
+<form [formGroup]="formCreate" (ngSubmit)="onSubmit()" class="formulario">
+    <mat-form-field>
+      <mat-label>Id</mat-label>
+      <input matInput formControlName="id" required>
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>Nombre</mat-label>
+      <input matInput formControlName="nombre" required>
+    </mat-form-field>
+    <br>
+    <mat-form-field>
+      <mat-label>Direccion</mat-label>
+      <input matInput formControlName="direccion" required>
+    </mat-form-field>
+    <div class="cancelar">
+      <button mat-raised-button color="primary" type="submit">Crear</button>
+      <button mat-raised-button color="warn" type="button" (click)="cancel()">Cancelar</button>
+    </div>
+  </form>

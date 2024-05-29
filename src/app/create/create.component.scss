@@ -1,0 +1,24 @@
+.form-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .mat-form-field {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 16px;
+  }
+  
+  button {
+    align-self: flex-start;
+  }
+  
+  table {
+    width: 100%;
+  }
+  
+  .mat-header-cell, .mat-cell {
+    padding: 16px;
+  }
+  
